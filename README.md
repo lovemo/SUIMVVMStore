@@ -11,7 +11,7 @@ pod 'SUIMVVMStore'
 ##introduction
 
 ```objc
-@interface MVVMStore : NSObject
+@interface SMKStore : NSObject
 
 + (instancetype)sharedStore;
 
@@ -76,7 +76,7 @@ pod 'SUIMVVMStore'
 
 - (id)db_getObjectById:(NSString *)objectId fromTable:(NSString *)tableName;
 
-- (MVVMStoreItem *)db_getStoreItemById:(NSString *)objectId fromTable:(NSString *)tableName;
+- (SMKStoreItem *)db_getStoreItemById:(NSString *)objectId fromTable:(NSString *)tableName;
 
 - (void)db_putString:(NSString *)string withId:(NSString *)stringId intoTable:(NSString *)tableName;
 
