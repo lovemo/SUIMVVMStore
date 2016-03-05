@@ -14,7 +14,7 @@
 		3407F5D91C869A1100F4A872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407F5CE1C869A1100F4A872 /* ViewController.m */; };
 		3407F5DA1C869A1100F4A872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407F5D11C869A1100F4A872 /* AppDelegate.m */; };
 		3407F5DB1C869A1100F4A872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407F5D21C869A1100F4A872 /* main.m */; };
-		34E294201C86B517005B8893 /* MVVMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E2941C1C86B517005B8893 /* MVVMStore.m */; };
+		34E294201C86B517005B8893 /* SMKStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E2941C1C86B517005B8893 /* SMKStore.m */; };
 		34E294211C86B517005B8893 /* YTKKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E2941F1C86B517005B8893 /* YTKKeyValueStore.m */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,9 @@
 		3407F5D01C869A1100F4A872 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3407F5D11C869A1100F4A872 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3407F5D21C869A1100F4A872 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		34E294191C86B517005B8893 /* MVVMStorePublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMStorePublic.h; sourceTree = "<group>"; };
-		34E2941B1C86B517005B8893 /* MVVMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMStore.h; sourceTree = "<group>"; };
-		34E2941C1C86B517005B8893 /* MVVMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMStore.m; sourceTree = "<group>"; };
+		34E294191C86B517005B8893 /* SMKStorePublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKStorePublic.h; sourceTree = "<group>"; };
+		34E2941B1C86B517005B8893 /* SMKStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMKStore.h; sourceTree = "<group>"; };
+		34E2941C1C86B517005B8893 /* SMKStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMKStore.m; sourceTree = "<group>"; };
 		34E2941E1C86B517005B8893 /* YTKKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKKeyValueStore.h; sourceTree = "<group>"; };
 		34E2941F1C86B517005B8893 /* YTKKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKKeyValueStore.m; sourceTree = "<group>"; };
 		5679365DED829D49787FB57A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		34E294181C86B517005B8893 /* SUIMVVMStore */ = {
 			isa = PBXGroup;
 			children = (
-				34E294191C86B517005B8893 /* MVVMStorePublic.h */,
+				34E294191C86B517005B8893 /* SMKStorePublic.h */,
 				34E2941A1C86B517005B8893 /* SUIMVVMStore */,
 				34E2941D1C86B517005B8893 /* YTKKeyValueStore */,
 			);
@@ -140,8 +140,8 @@
 		34E2941A1C86B517005B8893 /* SUIMVVMStore */ = {
 			isa = PBXGroup;
 			children = (
-				34E2941B1C86B517005B8893 /* MVVMStore.h */,
-				34E2941C1C86B517005B8893 /* MVVMStore.m */,
+				34E2941B1C86B517005B8893 /* SMKStore.h */,
+				34E2941C1C86B517005B8893 /* SMKStore.m */,
 			);
 			path = SUIMVVMStore;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3407F5D91C869A1100F4A872 /* ViewController.m in Sources */,
-				34E294201C86B517005B8893 /* MVVMStore.m in Sources */,
+				34E294201C86B517005B8893 /* SMKStore.m in Sources */,
 				3407F5DB1C869A1100F4A872 /* main.m in Sources */,
 				34E294211C86B517005B8893 /* YTKKeyValueStore.m in Sources */,
 				3407F5DA1C869A1100F4A872 /* AppDelegate.m in Sources */,

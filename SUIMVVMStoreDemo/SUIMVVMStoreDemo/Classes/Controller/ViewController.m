@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MVVMStore.h"
+#import "SMKStore.h"
 
 @interface ViewController ()
 
@@ -22,7 +22,7 @@
     NSArray *arr = @[@"Hello", @"Welcome", @"to", @"use", @"MVVMStore"];
     NSString *tableName = @"mvvm";
     
-    MVVMStore *store = [MVVMStore sharedStore];
+    SMKStore *store = [SMKStore sharedStore];
     [store db_initWithDBName:@"mvvm.sqlite" tableName:tableName];
     [store db_putObject:arr withId:@"isID" intoTable:tableName];
     
