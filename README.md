@@ -1,14 +1,14 @@
 # SUIMVVMStore
 SUIMVVMKit -- SUIMVVMStore
 
-====
-##usage
+---
+## usage
 ```
 pod 'SUIMVVMStore'
 ```
-====
+---
 
-##introduction
+## introduction
 
 ```objc
 @interface SMKStore : NSObject
